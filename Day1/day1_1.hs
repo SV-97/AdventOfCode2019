@@ -1,5 +1,3 @@
-import           System.Environment
-
 type Mass = Integer
 
 type Fuel = Integer

@@ -1,5 +1,3 @@
-import           System.Environment
-
 clamp :: (Bounded a, Ord a) => a -> a -> a -> a
 clamp min max val
   | val <= min = min
