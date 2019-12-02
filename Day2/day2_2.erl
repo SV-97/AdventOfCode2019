@@ -11,8 +11,6 @@ find_in_for_out(BaseProg, ExpectedOut,
     if ExpectedOut == Result -> {Noun, Verb};
        true -> find_in_for_out(BaseProg, ExpectedOut, Rest)
     end;
-find_in_for_out(_, _, [H | _]) ->
-    {howdidthishappenweresmarterthanthis, H};
 find_in_for_out(_, _, []) -> error.
 
 main() ->
