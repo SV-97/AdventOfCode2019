@@ -1,8 +1,6 @@
 
 remove_duplicates(In, Out) :- sort(In, Out).
 
-is_even(X) :- 0 is X mod 2.
-
 any(_, []) :- fail.
 any(Pred, [A|As]) :- call(Pred, A); any(Pred, As).
 
