@@ -1,4 +1,3 @@
-
 remove_duplicates(In, Out) :- sort(In, Out).
 
 any(_, []) :- fail.
