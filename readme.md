@@ -5,4 +5,4 @@
 | 1   | ⭐⭐  | Haskell    |
 | 2   | ⭐⭐  | Erlang     |
 | 3   | ⭐    | F\#        |
-| 4   | ⭐    | SWI-Prolog |
+| 4   | ⭐⭐  | SWI-Prolog |
